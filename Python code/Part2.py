@@ -23,7 +23,7 @@ def load_data_from_folders(root_folder):
     return df
 
 # Set the root folder containing category folders
-root_folder = "/content/sample_data/bbc"
+root_folder = "JoshuaJ1080/Classification-of-News-Articls-using-ML/Dataset"
 df = load_data_from_folders(root_folder)
 
 """Step 2 : Text Preprocessing"""
