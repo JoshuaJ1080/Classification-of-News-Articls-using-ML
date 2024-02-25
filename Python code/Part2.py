@@ -119,3 +119,23 @@ class_report = classification_report(y_test, y_pred)
 print(f"Accuracy: {accuracy}")
 print(f"Confusion Matrix:\n{conf_matrix}")
 print(f"Classification Report:\n{class_report}")
+
+
+"""Overall Performance"""
+
+from sklearn.metrics import precision_recall_fscore_support
+
+# Make predictions on the test set
+y_pred = model.predict(X_test)
+
+# Calculate accuracy
+accuracy = accuracy_score(y_test, y_pred)
+
+# Calculate precision, recall, and F1-score for each category
+precision, recall, f1, _ = precision_recall_fscore_support(y_test, y_pred, average='macro')
+
+# Print the results
+print(f"Accuracy: {accuracy}")
+print(f"Macro-Averaged Precision: {precision}")
+print(f"Macro-Averaged Recall: {recall}")
+print(f"Macro-Averaged F1 Score: {f1}")
