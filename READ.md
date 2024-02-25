@@ -7,3 +7,6 @@ Based on this dataset, we need to preprocess the data, select features and train
 The "Dataset" folder in the repository contains 5 folders, each contain '.txt' files which contain articles related to the name of the respective folders.
 
 The "Python Code" folder contain the python code which on execution, will compile and return the required results
+
+
+
