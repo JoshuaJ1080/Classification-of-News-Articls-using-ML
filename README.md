@@ -30,11 +30,12 @@
 <h5>cd GitHub</h5>
 <h5>cd Python code</h5>
 <h7>this code may vary depending upon te location of the "GitHib" folder in the system</h7>
-<br>
+<br><br>
 
 <h3>Step 6:</h3>
 <h4>View files in the Python code folder to get python file name</h4>
 <h5>ls</h5>
+<br>
 
 <h3>Step 6:</h3>
 <h4>Run the python code</h4>
